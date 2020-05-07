@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/header-font.css">
     <link rel="stylesheet" href="css/gallery.css">
     <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 
 <body>
@@ -185,6 +186,36 @@
             </ul>
         </section>
     </main>
+    <section class="contact" id="contact">
+        <div class="contact__description contact-items">
+            <header class="contact__description-header header-font">
+                Want to have a professional project? Let's talk about it.
+            </header>
+            <p class="contact__description-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum nostrum ea, deleniti voluptate autem
+                fugit voluptates laborum dicta.
+            </p>
+            <p class="contact__description-text">
+                Quaerat rem molestias, accusamus itaque fugiat earum, voluptates animi natus eligendi? Sit quia
+                similique quas dolorem ullam vel ut eveniet modi ipsum!
+            </p>
+        </div>
+        <form class="contact__form contact-items">
+            <input name="name" class="contact__form-name contact-form-item" required placeholder="your name*">
+            <input name="company" class="contact__form-company contact-form-item" required placeholder="company name*">
+            <input type="email" name="email" class="contact__form-email contact-form-item" required
+                placeholder="email address*">
+            <div class="contact-form-item contact-form-item-select">
+                <label for="selected" class="contact-form-item-label">select services*</label>
+                <select class="contact__form-select" required id="selected">
+                    <option class="contact__form-select--option" value="web-design">web-design</option>
+                    <option class="contact__form-select--option" value="web-develop">web-develop</option>
+                </select>
+            </div>
+            <textarea class="contact__form-textarea" placeholder="describe your project*" required rows="8"></textarea>
+            <button type="submit" class="contact-form-button">Submit</button>
+        </form>
+    </section>
 </body>
 
 </html>

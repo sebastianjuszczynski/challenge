@@ -87,6 +87,12 @@
     padding: 10px;
 }
 
+@media(max-width: 812px) {
+    .main-banner__text {
+        display: none;
+    }
+}
+
 .main-banner__button {
     font-size: 14px;
     color: white;

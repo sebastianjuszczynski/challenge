@@ -1,8 +1,15 @@
 .boxes-concept {
     max-width: 880px;
-    margin: -25px auto 20px;
+    margin: -25px auto;
     display: flex;
     position: relative;
+}
+
+@media(max-width:812px) {
+    .boxes-concept {
+        width: calc(100% - 15px);
+        margin: -20px auto;
+    }
 }
 
 @media(max-width:600px) {

@@ -15,10 +15,41 @@
     <link rel="stylesheet" href="css/services.css">
     <link rel="stylesheet" href="css/header-font.css">
     <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/navigation.css">
 </head>
 
 <body>
     <div class="box">
+        <nav class="navigation box--smaller">
+            <a href="#home"><img class="navigation__logo" src="images/logo.png" alt="logo"></a>
+
+            <ul class="navigation__items js-navigation-mobile">
+                <li class="navigation__item navigation__item-mobile">
+                    <div class="navigation__mobile-back">
+                        <div class="navigation__mobile-img">
+                            <a href="#home" class="navigation__mobile-link-img">
+                                <img src="images/mobile-menu-back.png" alt="wróć do strony głównej"
+                                    class="navigation__mobile-img-back">
+                            </a>
+                        </div>
+                        <div class="navigation__mobile--link-back">
+                            <a href="#home" class="navigation__mobile-link-back">
+                                back
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="navigation__item "><a href="#home" class="navigation__item-link">home</a></li>
+                <li class="navigation__item "><a href="#services" class="navigation__item-link">services</a></li>
+                <li class="navigation__item "><a href="#works" class="navigation__item-link">works</a></li>
+                <li class="navigation__item "><a href="#contact" class="navigation__item-link">contact</a></li>
+            </ul>
+
+            <button class="navigation__button-mobile js-navigation__button-mobile"><img
+                    class="navigation__button-mobile-img" src="images/navigation.svg"
+                    alt="Otwórz/zamknij nawigację"></button>
+        </nav>
+        <script src="js/navigation.js"></script>
         <section class="main-banner" id="home">
             <div class="main-banner__inner box--smaller">
                 <h1 class="main-banner__header header-font">Helping business and companies innovate and

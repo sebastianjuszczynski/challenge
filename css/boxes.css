@@ -9,6 +9,7 @@
     .boxes-concept {
         width: calc(100% - 15px);
         margin: -20px auto;
+        align-self: center;
     }
 }
 

@@ -70,15 +70,7 @@
     }
 }
 
-@media(max-width: 812px) {
-    .main-banner__header {
-        line-height: 1.2;
-        margin-bottom: 30px;
-        margin-right: -50px;
-        font-size: 20px;
-        width: 100vh;
-    }
-}
+
 
 .main-banner__text-box {
     width: 600px;
@@ -97,11 +89,7 @@
     padding: 10px;
 }
 
-@media(max-width: 812px) {
-    .main-banner__text {
-        display: none;
-    }
-}
+
 
 .main-banner__button {
     font-size: 14px;

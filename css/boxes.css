@@ -4,12 +4,14 @@
     display: flex;
     position: relative;
 }
+
 @media(max-width:600px) {
     .boxes-concept {
         width: calc(100% - 15px);
         display: block;
     }
 }
+
 .concept__box {
     width: 33%;
     background-color: #202b30;
@@ -18,9 +20,11 @@
     color: white;
     transition: 0.3s;
 }
+
 .concept__box:hover {
     background-color: #fb414e;
 }
+
 @media(max-width: 600px) {
     .concept__box {
         display: block;
@@ -28,22 +32,28 @@
         margin: 15px 0;
     }
 }
+
 .concept__box-first {
     background-color: #fb414e;
 }
+
 .concept__box-first:hover {
     background-color: #202b30;
 }
+
 .concept__box-icon {
     width: 40px;
 }
+
 .concept__box-header {
     text-transform: capitalize;
 }
+
 .concept__box-hr {
     width: 40px;
     margin-left: 0;
 }
+
 .concept__box-description {
     font-size: 14px;
     line-height: 1.5;

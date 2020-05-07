@@ -1,6 +1,6 @@
 .box {
     height: 100vh;
-    
+    width: 100%;
 }
 .main-banner {
     display: flex;

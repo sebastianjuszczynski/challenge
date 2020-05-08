@@ -1,17 +1,11 @@
 .services {
     max-width: 880px;
-    margin: 200px auto 100px;
+    margin: 300px auto 100px;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 991px) {
     .services {
-        margin: 250px auto 50px;
-    }
-}
-
-@media(max-width: 600px) {
-    .services {
-        margin: 850px auto 50px;
+        margin: 1250px auto 50px;
     }
 }
 

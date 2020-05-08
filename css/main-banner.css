@@ -16,10 +16,10 @@
     width: 100%;
 }
 
-
-@media(max-width: 400px) {
+@media(max-width: 991px) {
     .main-banner {
         height: 100%;
+        background-image: url("../images/background_mobile.jpg");
     }
 }
 
@@ -35,17 +35,17 @@
 }
 
 .main-banner__inner {
-    position: absolute;
+    position: relative;
     color: white;
     height: auto;
     width: 880px;
     text-align: center;
 }
 
-@media(max-width: 400px) {
+@media(max-width: 991px) {
     .main-banner__inner {
         width: 100%;
-        margin: 0 auto;
+        height: 100%;
     }
 }
 
@@ -56,16 +56,13 @@
     margin: 45px 0;
 }
 
-@media(max-width: 400px) {
+@media(max-width: 991px) {
     .main-banner__header {
-        line-height: 1.5;
-        margin-bottom: 25px;
-        margin: 15px 20px;
         font-size: 30px;
+        margin-bottom: 0;
+        margin-top: 80px;
     }
 }
-
-
 
 .main-banner__text-box {
     width: 600px;
@@ -73,7 +70,7 @@
     margin: 0 auto;
 }
 
-@media(max-width: 400px) {
+@media(max-width: 415px) {
     .main-banner__text-box {
         width: 300px;
     }
@@ -84,7 +81,11 @@
     padding: 10px;
 }
 
-
+@media(max-width: 991px) {
+    .main-banner__text {
+        margin-bottom: -10px;
+    }
+}
 
 .main-banner__button {
     font-size: 14px;
@@ -117,7 +118,7 @@
     background: transparent;
 }
 
-@media(max-width: 400px) {
+@media(max-width: 767px) {
     .main-banner__button {
         font-size: 12px;
         width: 110px;

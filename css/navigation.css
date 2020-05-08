@@ -3,12 +3,13 @@
     position: fixed;
     z-index: 1;
     width: 100vw;
+    height: 12vh;
     justify-content: space-around;
     padding: 15px 0;
     background: rgba(0, 0, 0, 0.5);
 }
 
-@media(max-width: 400px) {
+@media(max-width: 415px) {
     .navigation {
         flex-direction: column;
         background-color: rgba(0, 0, 0, 0.5);
@@ -21,9 +22,9 @@
     height: 40px;
 }
 
-@media(max-width: 400px) {
+@media(max-width: 991px) {
     .navigation__logo {
-        height: 30px;
+        height: 20px;
         margin: 0 auto;
     }
 }
@@ -60,7 +61,7 @@
     display: none;
 }
 
-@media(max-width: 400px) {
+@media(max-width: 415px) {
     .navigation__button-mobile {
         display: unset;
         width: 100px;
@@ -73,7 +74,7 @@
     }
 }
 
-@media(max-width: 400px) {
+@media(max-width: 415px) {
     .js-navigation-mobile {
         opacity: 0;
         pointer-events: none;
@@ -128,7 +129,7 @@
     }
 }
 
-@media(max-width: 400px) {
+@media(max-width: 415px) {
     .js-navigation__mobile-open {
         height: 100vh;
         display: unset;

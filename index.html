@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -43,7 +43,7 @@
                 <li class="navigation__item "><a href="#home" class="navigation__item-link">home</a></li>
                 <li class="navigation__item "><a href="#services" class="navigation__item-link">services</a></li>
                 <li class="navigation__item "><a href="#works" class="navigation__item-link">works</a></li>
-                <li class="navigation__item "><a href="#contact" class="navigation__item-link">contact</a></li>
+                <li class="navigation__item "><a href="#form" class="navigation__item-link">contact</a></li>
             </ul>
 
             <button class="navigation__button-mobile js-navigation__button-mobile"><img
@@ -71,31 +71,31 @@
         <section class="boxes-concept box--smaller">
             <article class="concept__box concept__box-first">
                 <img src="images/tiles/design-conscepts.svg" alt="" class="concept__box-icon">
-                <h4 class="concept__box-header">content concept & strattegy</h2>
-                    <hr class="concept__box-hr">
-                    <p class="concept__box-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Distinctio, maiores suscipit. Fuga earum dolorem repudiandae accusantium.</p>
+                <h4 class="concept__box-header">content concept & strattegy</h4>
+                <hr class="concept__box-hr">
+                <p class="concept__box-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Distinctio, maiores suscipit. Fuga earum dolorem repudiandae accusantium.</p>
             </article>
             <article class="concept__box">
                 <img src="images/tiles/design-conscepts.svg" alt="" class="concept__box-icon">
-                <h4 class="concept__box-header">design & strattegy</h2>
-                    <hr class="concept__box-hr">
-                    <p class="concept__box-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Distinctio, maiores suscipit. Fuga earum dolorem repudiandae accusantium.</p>
+                <h4 class="concept__box-header">design & strattegy</h4>
+                <hr class="concept__box-hr">
+                <p class="concept__box-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Distinctio, maiores suscipit. Fuga earum dolorem repudiandae accusantium.</p>
             </article>
             <article class="concept__box">
                 <img src="images/tiles/seo-marketing.svg" alt="" class="concept__box-icon">
-                <h4 class="concept__box-header">SEO & marketing solutions</h2>
-                    <hr class="concept__box-hr">
-                    <p class="concept__box-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Distinctio, maiores suscipit. Fuga earum dolorem repudiandae accusantium.</p>
+                <h4 class="concept__box-header">SEO & marketing solutions</h4>
+                <hr class="concept__box-hr">
+                <p class="concept__box-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Distinctio, maiores suscipit. Fuga earum dolorem repudiandae accusantium.</p>
             </article>
         </section>
     </div>
     <main>
         <section class="services box--smaller" id="services">
             <header class="services__header">
-                <div class="services__header-subheader header-font" id="services">services</div>
+                <div class="services__header-subheader header-font">services</div>
                 <h2 class="services__header-main-header header-font">Best services for <span
                         class="services__header-main-header-color header-font">Visual Perfection</span></h2>
                 <p class="services__header-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
@@ -186,7 +186,7 @@
             </ul>
         </section>
     </main>
-    <section class="contact" id="contact">
+    <section class="contact" id="form">
         <div class="contact__description contact-items">
             <header class="contact__description-header header-font">
                 Want to have a professional project? Let's talk about it.
@@ -206,10 +206,10 @@
             <input type="email" name="email" class="contact__form-email contact-form-item" required
                 placeholder="email address*">
             <div class="contact-form-item contact-form-item-select">
-                <label for="selected" class="contact-form-item-label">select services*</label>
+                <label for="selected" class="contact-form-item-label">Choose</label>
                 <select class="contact__form-select" required id="selected">
-                    <option class="contact__form-select--option" value="web-design">web-design</option>
-                    <option class="contact__form-select--option" value="web-develop">web-develop</option>
+                    <option class="contact__form-select--option" value="web-design">Desing</option>
+                    <option class="contact__form-select--option" value="web-develop">Others</option>
                 </select>
             </div>
             <textarea class="contact__form-textarea" placeholder="describe your project*" required rows="8"></textarea>
